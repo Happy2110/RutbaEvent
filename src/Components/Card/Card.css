@@ -1,0 +1,67 @@
+.container{
+    background-color: rgb(230, 213, 203);
+    width: calc(100vw/5);
+    height: calc(100vw/5);
+    padding:  10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgb(150, 137, 130);
+    
+    
+}
+.container .icon{
+    color: red;
+    
+}
+.container .first .second .content .arrow{
+    color: rgb(255, 0, 0);
+}
+.container .content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+.container .content h2{
+    font-size: larger;
+    font-style: bold;
+    font-weight: 500;
+    color: maroon;
+   
+
+}
+.container .content p{
+    font-size: medium;
+    font-style: bold;
+    font-weight: 100;
+    color: rgba(138, 49, 49, 0.897);
+   
+    
+
+
+}
+.container .first{
+    overflow-y: hidden;
+    height: 88%;
+  
+}
+.container .second{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transform: translateY(24px);
+
+}
+
+.group:hover{
+   background-color: rgb(228, 192, 158);
+    cursor: pointer;
+    box-shadow: 10px;
+    transform: translateY(0px);
+    transition-duration: 500ms;
+   
+}

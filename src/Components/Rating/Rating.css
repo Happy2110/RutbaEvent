@@ -1,0 +1,13 @@
+.rating-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.rating-left-box{
+    width: 45vw;
+    min-height: 70vh;
+}
+.rating-right-box{
+    width: 45vw;
+    min-height: 70vh;
+}

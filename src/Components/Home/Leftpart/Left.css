@@ -1,0 +1,63 @@
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+    
+}
+
+.left .top h1{
+    font-size: xx-large;
+    font-style: bold;
+    font-weight: 600;
+    margin: 5px;
+
+}
+.left .top h2{
+    font-size: larger;
+    font-style: bold;
+    font-weight: 300;
+    color: maroon;
+    margin: 5px;
+
+}
+.left .top p{
+    font-size: medium;
+    font-style: bold;
+    font-weight: 150;
+    color: rgba(138, 49, 49, 0.897);
+    margin-top: 5px;
+    margin-bottom: 10vh;
+
+
+}
+.left .top span{
+    color: red;
+    font-size: xx-large;
+    font-style: bold;
+    font-weight: 600;
+
+
+}
+.left .bottom .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:max-content;
+    margin: 5px 0;
+}
+.left .bottom .icons .icon{
+    margin: 6px;
+    border-radius: 0.375rem; /* Equivalent to rounded-md in Tailwind */
+  box-shadow: 0 0.25rem 0.5rem  rgba(189, 62, 62, 0.548); /* Equivalent to shadow-shadowOne in Tailwind */
+  transition-property: all; /* Equivalent to transition-all in Tailwind */
+  transition-duration: 0.3s; /* Equivalent to duration-300 in Tailwind */
+  cursor: pointer; 
+   
+}
+.left .bottom .icons .icon :hover{
+    background-color: rgba(189, 62, 62, 0.548);
+    box-shadow: 5px;
+    transform: translateY(-0.25rem);
+   
+}

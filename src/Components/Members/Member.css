@@ -1,0 +1,29 @@
+.team-member{
+    height: 45vh;
+    width: 45vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.2rem solid rgb(253, 253, 251);
+
+}
+
+.team-member .member-photo img{
+    height: 30vh;
+    width: 30vh;
+    border-radius: 2px;
+    box-shadow: 10px 5px 5px rgb(109, 96, 101);
+}
+.team-member .member-details h1{
+    font-size: x-large;
+    font-weight: 600;
+    color: wheat;
+    margin: 5px 0;
+}
+.team-member .member-details h2{
+    font-size: medium;
+    font-weight: 400;
+    color: rgb(110, 27, 34);
+}

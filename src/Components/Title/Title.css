@@ -1,0 +1,18 @@
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-family: sans-serif;
+    margin: 10px;
+}
+.title h3{
+    font-size: medium;
+    font-weight: 300;
+    color: brown;
+}
+.title h1{
+    font-size: xx-large;
+    font-weight: 600;
+    color: antiquewhite;
+}
