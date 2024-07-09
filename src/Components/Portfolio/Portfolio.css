@@ -1,7 +1,7 @@
 #portfolio{
     margin: 2px;
     background: rgba(148, 85, 106, 0.452);
-
+    border-radius: 10px;
     padding: 10px;
     height: 100vh;
     display: flex;
@@ -18,12 +18,13 @@
     
 }
 .portfolio-container .p-list .list-item{
-    background: #c48e3e8a;
-    border: 5px salmon;
+    background: #fdfdfcd2;
+    border: 5px rgb(236, 158, 158);
     margin: 2px;
     display: grid;
     place-items: center;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .members{
@@ -32,14 +33,16 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    border-radius: 10px;
 }
 .portfolio-container .p-list .list-item-active{
-    background: #80302c9d;
+    background: #e67873c9;
     border: 2px solid rgba(170, 28, 28, 0.74);
     font-weight: 500;
+    border-radius: 10px;
     
 }
 .portfolio-container .p-list .list-item:hover{
-    background: #4e1d1ac5;
+    background: rgba(223, 106, 100, 0.89);
 }
 

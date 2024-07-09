@@ -7,7 +7,8 @@
     align-items: center;
     justify-content: center;
     border: 0.2rem solid rgb(253, 253, 251);
-
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .team-member .member-photo img{
@@ -15,6 +16,8 @@
     width: 30vh;
     border-radius: 2px;
     box-shadow: 10px 5px 5px rgb(109, 96, 101);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .team-member .member-details h1{
     font-size: x-large;

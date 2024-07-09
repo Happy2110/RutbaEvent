@@ -3,6 +3,8 @@
     background: rgba(148, 85, 106, 0.452);
     margin: 2px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .contact-form{
     width: 100%;
@@ -17,6 +19,16 @@
 .contact-form input{
     margin: 5px;
     padding: 2px;
+    width: 300px;
     border-radius: 5px;
-    border-color: rgb(95, 82, 82);
+    border-color: rgb(247, 195, 195);
+}
+.contactus-left-part{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    
 }

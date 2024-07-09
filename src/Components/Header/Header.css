@@ -11,9 +11,10 @@
     margin: 1px;
     padding: 10px;
     font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 500;
     position: sticky;
+    border-radius: 10px;
     top: 0;
     z-index: 1;
     background-color: rgba(207,178,188,255);
@@ -39,7 +40,8 @@
     min-width: 200px;
     border: none;
     padding: 4px;
-    border-radius: 4px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 
 }
 
@@ -47,11 +49,15 @@
     border: none;
     padding: 4px;
     background-color: rgba(250, 247, 248, 0.897);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 2px;
 }
 .navbar .searchbox .submit{
     border-color: rgba(148, 85, 106, 0.452);
     padding: 4px;
     background-color: rgba(148, 85, 106, 0.452);
+    border-radius: 10px;
 }
 
 .left-box {
@@ -67,7 +73,7 @@
    padding: 8px;
    min-width: auto;
    border: none;
-   border-radius: 4px;
+   border-radius: 10px;
 }
 .active{
     font-weight: 300;

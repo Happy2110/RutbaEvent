@@ -42,7 +42,7 @@ function Header() {
 
               <button type="button" className="close" onClick={() => (setInput(""))}>
                 {" "}
-                X{" "}
+                x{" "}
               </button>
               <button type="button" className="submit">
                 Submit{" "}

@@ -8,8 +8,12 @@ const options = {
   indexAxis: 'y', // Horizontal bar chart
   elements: {
     bar: {
-      borderWidth: 2,
+      borderWidth: 1,
+      
     },
+  },
+  grid:{
+    diplay:false,
   },
   responsive: true,
   plugins: {
@@ -28,7 +32,7 @@ const data = {
     {
       label: 'Reviews',
       data: [450, 440, 470, 400, 500], // Sample data for Dataset 1
-      borderColor: 'rgb(200, 0, 0,1)',
+      borderColor: 'rgb(190, 0, 0,1)',
       backgroundColor: 'rgba(200, 0, 0, 0.7)',
     },
     

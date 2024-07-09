@@ -8,6 +8,7 @@
     margin: 2px;
     padding: 10px;
     height: 100vh;
+    border-radius: 10px;
 }
 .about-container{
     display: flex;
@@ -33,6 +34,7 @@
     scroll-behavior: smooth;
     box-shadow: 8px 8px 6px 4px rgba(99, 95, 96, 0.452);
     -ms-overflow-style: none;  /* IE and Edge */
+    border-radius: 10px;
 }
 
 .slider::-webkit-scrollbar {

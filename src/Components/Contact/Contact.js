@@ -17,6 +17,17 @@ function Contact() {
   return (
     <section id='contactus' className='contactus'>
       <Title min={"Keep in Touch..."} max={"Contact Us"}/>
+      <div style={{display:'flex', gap:10, justifyContent:'space-evenly', alignItems:'center'}}>
+      <div className="contactus-left-part">
+        <div className="contact-address">
+          <span>
+            
+          </span>
+          plot 32-33 sharda university knollege park 
+          </div>
+        <div className="contact-email">abc.gmail.com</div>
+        <div className="contact-phonenumber">+91-94949494949  </div>
+      </div>
       <div className="contact-form">
         <input type="text" id='name' placeholder='Your Name' />
         <input type="text" id='address' placeholder='Address' />
@@ -24,6 +35,7 @@ function Contact() {
         <textarea type="text" id='message' placeholder='write your message' />
         <input type='reset' id="reset" value='reset'/>
         <input type='submit' onClick={whatsapp} value='submit'/>
+      </div>
       </div>
     </section>
   )
