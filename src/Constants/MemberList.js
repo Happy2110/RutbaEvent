@@ -1,16 +1,29 @@
 import achyuttamImage from '../Assets/Images/achyuttam.jpeg'; 
-export const memberList=[{
+import kiranPanchal from '../Assets/Images/kiran panchal.jpg'
+export const memberList=[
+    {
     name:"Kiran Panchal",
     dept: "Founder",
-    link: achyuttamImage
+    link:kiranPanchal,
+    facebook:"abhianv kumar dubey",
+    linkedIn:"sdfsdfdsfsdfd",
+    instagram:"sdfasdf",
+    gmail:"sfdsdfsdfsdfs"
+
+
 
 },{
     name:"Achyuttam Pandey",
     dept: "Founder",
-    link:achyuttamImage
+    link:achyuttamImage,
+    facebook:"sdfsdf",
+    linkedIn:"sdfasdf",
+    instagram:"dfssadfd",
+    gmail:""
 },
-{
-    name:"Kiran Panchal",
-    dept: "Founder",
-    link:achyuttamImage
-}]
+// {
+//     name:"Kiran Panchal",
+//     dept: "Founder",
+//     link:kiranPanchal
+// }
+]

@@ -16,13 +16,23 @@ export const navLinkData=[
     },
     {
         id:4,
-        title:"about",
+        title:"About",
         link:"aboutus",
     },
     {
         id:5,
         title:"Contact",
         link:"contactus",
-    },
+    }
+    // {
+    //     id:6,
+    //     title:"Log In",
+    //     link:"login",
+    // },
+    // {
+    //     id:7,
+    //     title:"Sign Up",
+    //     link:"signup",
+    // },
    
 ]
